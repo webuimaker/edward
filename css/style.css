@@ -3826,3 +3826,20 @@ body {
     display: none;
   }
 }
+
+
+
+
+/*************** Top FORM ***************/
+.top-form{
+	top:30px !important;
+}
+.top-form h2{
+	font-size:1.8em;
+}
+.top-form p{
+	font-size:16px;
+}
+.top-form input{
+	margin-bottom:1em;
+}
