@@ -41,17 +41,17 @@ collections:
           - {label: "Section", name: "section_id", widget: "hidden", default: "home"}
           - {label: Title, name: title, widget: string}
           - {label: "Top Section", name: slides, widget: object, fields: [
-              {label: "Banner", name: "banner", widget: "list" fields:[
+              {label: "Banner", name: "banner", widget: "list", fields:[
                 {lable: "Bg Image", name: "bg", widget: "image"},
                 {lable: "Title", name: "title", widget: "string"},
-                {lable: "lists", name: "lists", widget: "list" fields:[
+                {lable: "lists", name: "lists", widget: "list", fields:[
                   {lable: "text", name: "text", widget: "string"}
                 ]},
               ]},
               {label: "Forms", name: "forms", widget: "object", fields:[
                 {lable: "heading", name: "heading", widget: "string"},
                 {lable: "subHeading", name: "subHeading", widget: "string"},
-                {lable: "formList", name: "formList", widget: "list"fields:[
+                {lable: "formList", name: "formList", widget: "list", fields:[
                   {lable: "placeholder", name: "placeholder", widget: "string"},
                   {lable: "name", name: "name", widget: "string"},
                   {lable: "type", name: "type", widget: "string"},
