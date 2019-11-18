@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+  #name: github
+  #repo: edwardnewton/cleanily_static
+
+media_folder: "images/uploads"
+
+publish_mode: editorial_workflow
+
+
+
+collections:
+  - name: "config"
+    label: "Config"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "nav"
+        file: "_data/nav.yml"
+        fields:
+          - label: "Navigation Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Link, name: path, widget: string}
+              - {label: Section Id, name: section_id, widget: string}
+      - label: "Config File"
+        name: "config"
+        file: "_config.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Email, name: email, widget: string}
+          - {label: Description, name: description, widget: string}
+          - {label: Url, name: url, widget: string}
+          - {label: twitter_username, name: twitter_username, widget: string}
+          - {label: github_username, name: github_username, widget: string}
+          - {label: markdown, name: markdown, widget: string}
+          - {label: paginate, name: paginate, widget: number}
+          - {label: paginate_path, name: paginate_path, widget: string}
+      
