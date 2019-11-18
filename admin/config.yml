@@ -55,8 +55,8 @@ collections:
                   {lable: "placeholder", name: "placeholder", widget: "string"},
                   {lable: "name", name: "name", widget: "string"},
                   {lable: "type", name: "type", widget: "string"},
-                  {lable: "required", name: "required", widget: "Boolean", default: true},
-                  {lable: "input", name: "input", widget: "Boolean", default: true}
+                  {lable: "required", name: "required", widget: "string", default: true},
+                  {lable: "input", name: "input", widget: "string", default: true}
                 ]}
               ]
               }]}
