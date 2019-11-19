@@ -3765,6 +3765,28 @@ body {
   .modBoxedSlider .caption h2 {
     font-size: 1.8rem;
   }
+  
+  .top-banner .title.bottom-to-top,  .top-banner .lists.buttons-wrapper.bottom-to-top{
+	  top:15px !important;
+  }
+   .top-banner .title h2{
+	   font-size:1.8em  !important;
+	   margin-bottom:10px !important;
+	   line-height:2rem !important;
+   }
+   .top-form h2 {
+		font-size: 1.6em;
+		margin-bottom: 1rem;
+		line-height: 1em;
+	}
+	.top-form p{
+		font-size: 15px;
+		margin-bottom: 1rem;
+		line-height: 1em;
+	}
+	.top-form input {
+		margin-bottom: .5em;
+	}
 }
 @media only screen and (max-width: 480px) {
   .modDefaultSlider .sequence .title h2 {
@@ -3825,6 +3847,30 @@ body {
   .modFullscreenSlider .fullscreen_slideshow .video_wrap {
     display: none;
   }
+}
+
+@media only screen and (min-width: 768px)  and (max-width: 992px) {
+	 .top-banner .title.bottom-to-top,  .top-banner .lists.buttons-wrapper.bottom-to-top{
+	  top:15px !important;
+  }
+   .top-banner .title h2{
+	   font-size:1.8em  !important;
+	   margin-bottom:10px !important;
+	   line-height:2rem !important;
+   }
+   .top-form h2 {
+		font-size: 1.6em;
+		margin-bottom: 1rem;
+		line-height: 1em;
+	}
+	.top-form p{
+		font-size: 15px;
+		margin-bottom: 1rem;
+		line-height: 1em;
+	}
+	.top-form input {
+		margin-bottom: .5em;
+	}
 }
 
 
