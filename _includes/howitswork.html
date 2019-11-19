@@ -1,0 +1,28 @@
+<div class="four spacing"></div>
+<div class="mod modSectionHeader ">
+  <div class="special-title centered-text">
+    <h2 style="color: ;">{{ page.howitsWorks.sectionTitle:}}</h2>
+  </div>
+  
+</div>
+<div class=" spacing"></div>
+<div class="row">
+	 {% for works in page.howitsWorks.works %}
+	  <div class="medium-3 large-3 columns">
+		<div class='fadein mod modIconText' data-delay='0'>
+		  <div class='icon-text-circle'>
+			<i class='{{works.icon}}'></i>
+			<h3>{{ works.title }}</h3>
+			<p>{{ works.desc }}</p>
+		  </div>
+		  <div class='two spacing'></div>
+		</div>
+	  </div>
+	 {% endfor %}
+</div>
+<div class="row">
+	 <div class="medium-12 columns">
+	{{ page.howitsWorks.content}}
+	</div>
+</div>
+<div class=" spacing"></div>

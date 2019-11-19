@@ -59,8 +59,16 @@ collections:
                   {lable: "input", name: "input", widget: "string", default: true}
                 ]}
               ]
-              }]}
-              
+              }]}              
           - {label: "Contact Number", name: "contactNumber",  default: "number"}
+          - {label: "How Its works", name: "howitsWorks", widget: object, fields: [
+              {lable: "Section Title", name: "sectionTitle", widget: "string"}
+              {label: "works", name: "works", widget: "list", fields:[
+                {lable: "Icon", name: "icon", widget: "string"},
+                {lable: "Title", name: "title", widget: "string"},
+                {lable: "Details", name: "desc", widget: "string"}
+              ]},
+              {label: "Main Content", name: "content", widget: "markdown"}
+              ]}
           
           
