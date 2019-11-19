@@ -68,7 +68,7 @@ collections:
                 {lable: "Title", name: "title", widget: "string"},
                 {lable: "Details", name: "desc", widget: "string"}
               ]},
-              {label: "Main Content", name: "content", widget: "markdown"}
+              {label: "Main Content", name: "body", widget: "markdown"}
               ]}
           
           
