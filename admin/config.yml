@@ -62,7 +62,7 @@ collections:
               }]}              
           - {label: "Contact Number", name: "contactNumber",  default: "number"}
           - {label: "How Its works", name: "howitsWorks", widget: object, fields: [
-              {lable: "Section Title", name: "sectionTitle", widget: "string"}
+              {lable: "Section Title", name: "sectionTitle", widget: "string"},
               {label: "works", name: "works", widget: "list", fields:[
                 {lable: "Icon", name: "icon", widget: "string"},
                 {lable: "Title", name: "title", widget: "string"},
