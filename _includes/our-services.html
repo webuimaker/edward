@@ -13,7 +13,7 @@
       <div class='spacing'></div>
 	  {% if page.ourServices.body %}
 			 <p>
-			{{page.ourServices.body}}
+			{{page.ourServices.body | markdownify }}
 		  </p>
 	 {% endif %}
      
