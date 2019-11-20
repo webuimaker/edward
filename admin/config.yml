@@ -107,5 +107,10 @@ collections:
                 {lable: "Business Logo/Image", name: "logo", widget: "image"}
               ]}
               ]}
+          - {label: "Gallery", name: "gallery", widget: object, fields: [
+              {lable: "Section Title", name: "sectionTitle", widget: "string"},
+              {lable: "Tagline", name: "tagline", widget: "string"},
+              {lable: "Details", name: "body", widget: "markdown"}
+              ]}
           
           

@@ -1,0 +1,35 @@
+---
+layout: default
+title: find your location
+section_id: locations
+permalink: find-your-location
+---
+
+
+<div class='full parallax' style='background-image: url(images/@stock/portfolio-header-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Find your locations" tagline="Get In Touch With Your Local Cleaning Manager Today!" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-6 large-offset-3 columns'>
+        <ul class="location ">
+			{% for locations in site.cleaning-services %}		
+			  <li>
+				<a href='/cleaning-services/{{locations.title | downcase }}'>{{locations.title}}</a>
+			  </li>
+		  {% endfor %}
+        </ul>
+
+
+    </div>
+  </div>
+
+  <div class='four spacing'></div>
+</div>
