@@ -7,4 +7,5 @@ items:
     name: three
   - image: images/@stock/big-work-2.jpg
     name: four
-
+  - image: /images/uploads/about-us-header.jpg
+    name: five
