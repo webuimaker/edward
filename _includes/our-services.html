@@ -11,9 +11,9 @@
 		</div>
 	
       <div class='spacing'></div>
-	  {% if page.ourServices.details %}
+	  {% if page.ourServices.body %}
 			 <p>
-			{{page.ourServices.details}}
+			{{page.ourServices.body}}
 		  </p>
 	 {% endif %}
      
@@ -66,32 +66,13 @@
 	<div class='medium-6 columns'>
 		<div class='two spacing'></div>
 		<h3 class="">Local Articles</h3>
-		{% for post in site.posts %}
+		{% for post in site.posts limit:5 %}
 		<ul>
 			<li><a href="{{post.url}}">{{post.title}}</a></li>
 		</ul>
 		{% endfor %}
 	</div>
-	
-	
 
-	
-  
-  
-  
-   
-    <div class='medium-6 columns'>
-      {% for service in page.services %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      {% endfor %}
-    </div>
   </div>
   <div class='spacing'></div>
 </div>
