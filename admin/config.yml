@@ -27,6 +27,16 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Link, name: path, widget: string}
               - {label: Section Id, name: section_id, widget: string}
+      - label: "GALLERY"
+        name: "gallery"
+        file: "_data/gallery.yml"
+        fields:
+          - label: "Gallery images"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Image, name: image, widget: image}
   - name: "page"
     label: "Page"
     sort: "title:asc"
