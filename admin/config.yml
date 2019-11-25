@@ -185,16 +185,6 @@ collections:
             {lable: "Business Details", name: "body", widget: "markdown"},
             {lable: "Business Logo/Image", name: "logo", widget: "image"}
             ]}
-          ]} 
-      - {label: "Gallery", name: "gallery", widget: object, fields: [
-          {lable: "enable", name: "enable", widget: "boolean", default: true},
-          {lable: "Section Title", name: "sectionTitle", widget: "string"},
-          {lable: "Tagline", name: "tagline", widget: "string"},
-          {lable: "Details", name: "body", widget: "markdown"},
-          {lable: "items", name: "items", widget: "object", fields: [
-            {lable: "image", name: "image", widget: "image"},
-            {lable: "name", name: "name", widget: "string"}
-            ]}
           ]}
       - {label: "Body", name: "body", widget: "markdown", required: false}
           
