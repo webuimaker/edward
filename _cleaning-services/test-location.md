@@ -61,7 +61,6 @@ howitsWorks:
       icon: fa fa-comments-o
       title: Creative design
 ourServices:
-  enable: true
   body: >-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
@@ -69,6 +68,7 @@ ourServices:
     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
     laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna
     adipiscing.
+  enable: false
   howItWorksVideo:
     heading: How it works
     videoUrl: 'https://player.vimeo.com/video/278654013'
