@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% if page.slides.enable == "true" %}
+{% if page.slides.enable == true %}
 
 <div class='mod modDefaultSlider top-banner'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
@@ -96,17 +96,17 @@ layout: default
   </div>
 </div>
 {% endif %}
-{% if page.howitsWorks.enable == "true" %}
+{% if page.howitsWorks.enable == true %}
 	{% include howitswork.html %}
 {% endif %}
-{% if page.ourServices.enable == "true" %}
+{% if page.ourServices.enable == true %}
 	{% include our-services.html %}
 {% endif %}
-{% if page.localBusiness.enable == "true" %}
+{% if page.localBusiness.enable == true %}
 	{% include local-business.html %}
 {% endif %}
 
-{% if page.gallery.enable == "true" %}
+{% if page.gallery.enable == true %}
 	{% include gallery.html %}
 {% endif %}
 
