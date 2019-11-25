@@ -84,7 +84,6 @@ ourServices:
     heading: How it works
     videoUrl: 'https://player.vimeo.com/video/284347668'
 localBusiness:
-  enable: true
   body: >-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
@@ -102,10 +101,10 @@ localBusiness:
     - body: Test demo
       businessName: Business name from CMS
       logo: /images/uploads/demo-5.png
+  enable: true
   sectionTitle: Our Local Business Friends in Newcastle
   tagline: tagline here.
 gallery:
-  enable: true
   body: >-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
@@ -113,16 +112,10 @@ gallery:
     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
     laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna
     adipiscing.
+  enable: true
   items:
-    - body: businessDetails
-      businessName: list -1
-      logo: images/@stock/responsive.png
-    - body: businessDetails
-      businessName: list -2
-      logo: images/@stock/responsive.png
-    - body: Test demo
-      businessName: Business name from CMS
-      logo: /images/uploads/demo-5.png
+    - image: /images/uploads/about-us-header.jpg
+      text: one
   sectionTitle: Our Local Business Gallery
   tagline: tagline here.
 ---
