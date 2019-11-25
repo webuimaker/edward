@@ -190,7 +190,10 @@ collections:
           {lable: "enable", name: "enable", widget: "boolean", default: true},
           {lable: "Section Title", name: "sectionTitle", widget: "string"},
           {lable: "Tagline", name: "tagline", widget: "string"},
-          {lable: "Details", name: "body", widget: "markdown"}
+          {lable: "Details", name: "body", widget: "markdown"},
+          {label: "Gallery Images", name: "items", widget: "object", fields:[
+              {lable: "Image", name: "image", widget: "image"},
+              {lable: "image text", name: "name", widget: "string"}
         ]}
       - {label: "Body", name: "body", widget: "markdown", required: false}
           
