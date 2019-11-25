@@ -10,7 +10,7 @@ slides:
         - text: demo
       title: demo
   contactNumber: demo
-  enable: false
+  enable: true
   forms:
     formList:
       - input: true
