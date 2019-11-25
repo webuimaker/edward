@@ -60,5 +60,28 @@ howitsWorks:
         sit quae nostrum.
       icon: fa fa-comments-o
       title: Creative design
+ourServices:
+  enable: true
+  body: >-
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
+    consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet,
+    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+    laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna
+    adipiscing.
+  howItWorksVideo:
+    heading: How it works
+    videoUrl: 'https://player.vimeo.com/video/278654013'
+  localAreas:
+    - text: list -1
+    - text: list -2
+    - text: list -3
+    - text: list -4
+    - text: Added from CMS
+  sectionTitle: About Our Service
+  tagline: tagline here
+  transparentVideo:
+    heading: How it works
+    videoUrl: 'https://player.vimeo.com/video/284347668'
 ---
 

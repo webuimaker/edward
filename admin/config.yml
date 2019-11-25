@@ -157,7 +157,24 @@ collections:
             {lable: "Details", name: "desc", widget: "string"}
             ]},
           {label: "Main Content", name: "body", widget: "markdown"}
-              ]}
+              ]}      
+      - {label: "About Our Services", name: "ourServices", widget: object, fields: [
+          {lable: "enable", name: "enable", widget: "boolean", default: true},
+          {lable: "Section Title", name: "sectionTitle", widget: "string"},
+          {lable: "Tagline", name: "tagline", widget: "string"},
+          {lable: "Details", name: "body", widget: "markdown"},
+          {label: "how It Works Video", name: "howItWorksVideo", widget: "object", fields:[
+            {lable: "videoUrl", name: "videoUrl", widget: "string"},
+            {lable: "Heading", name: "heading", widget: "string"}
+            ]},
+            {label: "Transparent Video", name: "transparentVideo", widget: "object", fields:[
+              {lable: "videoUrl", name: "videoUrl", widget: "string"},
+              {lable: "Heading", name: "heading", widget: "string"}
+            ]},
+            {label: "localAreas", name: "localAreas", widget: "list", fields:[
+              {lable: "Local Areas Text ", name: "text", widget: "string"}
+            ]}
+          ]}
       - {label: "Body", name: "body", widget: "markdown", required: false}
           
           
