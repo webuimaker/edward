@@ -37,7 +37,7 @@ howitsWorks:
 
     Our coverage through all areas of the Sheffield area is great, so whether
     you’re in Beauchief or Beighton, we’ve got you covered.
-  enable: false
+  enable: true
   sectionTitle: How Its works
   works:
     - desc: >-
