@@ -176,6 +176,7 @@ collections:
             ]}
           ]}       
       - {label: "Local Business Friends", name: "localBusiness", widget: object, fields: [
+          {lable: "enable", name: "enable", widget: "boolean", default: true},
           {lable: "Section Title", name: "sectionTitle", widget: "string"},
           {lable: "Tagline", name: "tagline", widget: "string"},
           {lable: "Details", name: "body", widget: "markdown"},
@@ -186,6 +187,7 @@ collections:
             ]}
           ]}
       - {label: "Gallery", name: "gallery", widget: object, fields: [
+          {lable: "enable", name: "enable", widget: "boolean", default: true},
           {lable: "Section Title", name: "sectionTitle", widget: "string"},
           {lable: "Tagline", name: "tagline", widget: "string"},
           {lable: "Details", name: "body", widget: "markdown"}
