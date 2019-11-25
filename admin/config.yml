@@ -195,7 +195,7 @@ collections:
               {lable: "Image", name: "image", widget: "image"},
               {lable: "image text", name: "name", widget: "string"}
             ]}
-        ]}
+          ]}
       - {label: "Body", name: "body", widget: "markdown", required: false}
           
           
