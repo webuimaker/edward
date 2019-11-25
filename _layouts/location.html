@@ -1,0 +1,115 @@
+---
+layout: default
+---
+{% if page.slides.enable == "true" %}
+
+<div class='mod modDefaultSlider top-banner'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <!--<a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>-->
+    <!--<ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.first %}
+          {% assign class = 'current' %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+        <li class="{{class}}"></li>
+      {% endfor %}
+    </ul>-->
+	
+	  
+		
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides.banner %}
+        {% if forloop.first %}
+          {% assign style = 'static' %}
+        {% else %}
+          {% assign style = '' %}
+        {% endif %}
+
+        <li class='frame {{style}} bottom-to-top'>
+          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
+          <div class="row">
+			  <div class="medium-8 large-8 columns">					
+					  <div class='title bottom-to-top'>
+						<div class='row'>
+						  <div class='large-12 columns'>
+							<h2>{{ slide.title }}</h2>
+						  </div>
+						</div>
+					  </div>
+					  <div class='lists buttons-wrapper  bottom-to-top'>
+						<div class='row'>
+						  <div class='large-12 columns'>
+							<ul>
+							{% for button in slide.lists %}
+							  <li>{{ button.text }}</a></li>
+							{% endfor %}
+							</ul>
+						  </div>
+						</div>
+					  </div>
+				</div>
+			  <div class="medium-4 large-4 columns">
+				<div class="top-form info bottom-to-top">
+					 <form id='contact_form' method='POST'>
+					  <div class='large-12 columns'>
+						<p id='thanks' style='display: none;'>
+						  Thanks for contacting us, we'll be in touch soon!
+						</p>
+					  </div>
+					  <div class=''>
+						<h2>{{page.slides.forms.heading}}</h2>
+						<p>{{page.slides.forms.subHeading}}</p>
+						{% for forms in page.slides.forms.formList %}
+							{% if forms.input != "true" %}
+									<textarea  name='{{forms.name}}' placeholder='{{forms.placeholder}}' required="{{forms.required}}" ></textarea>
+							{% else %}
+								<input name='{{forms.name}}' placeholder='{{forms.placeholder}}' required="{{forms.required}}" type="{{forms.type}}" >
+							{% endif %}
+							  
+						{% endfor %}
+						<input class='button white' type='submit'>
+					  </div>
+					</form>
+				</div>
+				<p class="call">
+					<i class="fa fa-phone"> </i> {{page.slides.contactNumber}}
+				</p>
+				
+			  </div>
+		</div>
+		  
+		  
+		  
+		  
+		  
+		  
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+{% endif %}
+{% if page.howitsWorks.enable == "true" %}
+	{% include howitswork.html %}
+{% endif %}
+{% if page.ourServices.enable == "true" %}
+	{% include our-services.html %}
+{% endif %}
+{% if page.localBusiness.enable == "true" %}
+	{% include local-business.html %}
+{% endif %}
+
+{% if page.gallery.enable == "true" %}
+	{% include gallery.html %}
+{% endif %}
+
+
+
+

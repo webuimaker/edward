@@ -1,42 +1,27 @@
 ---
 layout: location
-section_id: home
-title: 'Newcastle'
+title: test location
+section: '{{name}}'
+intro_paragraph: demo
 slides:
   enable: "true"
   banner:
-    - bg: images/@stock/slide-1.jpg
+    - bg: /images/uploads/about-us-header.jpg
       lists:
-        - text: 'All cleaners experienced, vetted & insured'
-        - text: No committment or minimum bookings
-        - text: All jobs timed & GPS tracked
-      title: 'Professional House Cleaning Services In Sheffield '
-  contactNumber: 0114 303 4121006
+        - text: demo
+      title: demo
+  contactNumber: demo
   forms:
     formList:
-      - input: 'true'
+      - input: true
         name: name
-        placeholder: Name
-        required: 'true'
+        placeholder: name
+        required: true
         type: text
-      - input: 'true'
-        name: email
-        placeholder: EMAIL
-        required: 'true'
-        type: email
-      - input: 'true'
-        name: phone
-        placeholder: Phone Number
-        required: 'true'
-        type: tel
-      - input: 'false'
-        name: message
-        placeholder: MESSAGE
-        required: 'true'
-        type: text
-    heading: GET IN TOUCH TODAY
-    subHeading: Tell us about your cleaning needs and we’ll get straight back
-howitsWorks:  
+    heading: demo
+    subHeading: demo
+
+howitsWorks:
   enable: "true"
   body: >-
     **Our Cleaners in Sheffield have over 100 year’s experience!**

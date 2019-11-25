@@ -112,5 +112,41 @@ collections:
               {lable: "Tagline", name: "tagline", widget: "string"},
               {lable: "Details", name: "body", widget: "markdown"}
               ]}
+    # PAGES
+  - name: "cleaning-services"
+    label: "Location"
+    folder: "_cleaning-services"
+    sort: "title:asc"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "location"}
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Permalink", name: "permalink", widget: "hidden"}
+      - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
+      - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+      - {label: "Top Section", name: slides, widget: object, fields: [
+          {label: "Banner", name: "banner", widget: "list", fields:[
+            {lable: "Bg Image", name: "bg", widget: "image"},
+            {lable: "Title", name: "title", widget: "string"},
+            {lable: "lists", name: "lists", widget: "list", fields:[
+            {lable: "text", name: "text", widget: "string"}
+           ]},
+          ]},
+          {label: "Forms", name: "forms", widget: "object", fields:[
+            {lable: "heading", name: "heading", widget: "string"},
+            {lable: "subHeading", name: "subHeading", widget: "string"},
+            {lable: "formList", name: "formList", widget: "list", fields:[
+              {lable: "placeholder", name: "placeholder", widget: "string"},
+              {lable: "name", name: "name", widget: "string"},
+              {lable: "type", name: "type", widget: "string"},
+              {lable: "required", name: "required", widget: "string", default: true},
+              {lable: "input", name: "input", widget: "string", default: true}
+              ]}
+              ]
+              },
+              {label: "Contact Number", name: "contactNumber",  default: "number"}
+              ]}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
           
           

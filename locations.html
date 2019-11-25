@@ -22,12 +22,10 @@ permalink: find-your-location
         <ul class="location ">
 			{% for locations in site.cleaning-services %}		
 			  <li>
-				<a href='/cleaning-services/{{locations.title | downcase }}'>{{locations.title}}</a>
+				<a href='/cleaning-services/{{locations.title | replace: ' ', '-' | downcase }}'>{{locations.title}}</a>
 			  </li>
 		  {% endfor %}
         </ul>
-
-
     </div>
   </div>
 
