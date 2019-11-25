@@ -68,7 +68,7 @@ ourServices:
     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
     laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna
     adipiscing.
-  enable: false
+  enable: true
   howItWorksVideo:
     heading: How it works
     videoUrl: 'https://player.vimeo.com/video/278654013'
