@@ -148,6 +148,16 @@ collections:
               },
               {label: "Contact Number", name: "contactNumber",  default: "number"}
               ]}
+      - {label: "how Its Works", name: howitsWorks, widget: object, fields: [
+          {lable: "enable", name: "enable", widget: "boolean", default: true},
+          {lable: "Section Title", name: "sectionTitle", widget: "string"},
+          {label: "works", name: "works", widget: "list", fields:[
+            {lable: "Icon", name: "icon", widget: "string"},
+            {lable: "Title", name: "title", widget: "string"},
+            {lable: "Details", name: "desc", widget: "string"}
+            ]},
+          {label: "Main Content", name: "body", widget: "markdown"}
+              ]}
       - {label: "Body", name: "body", widget: "markdown", required: false}
           
           
