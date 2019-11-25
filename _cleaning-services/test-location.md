@@ -109,16 +109,8 @@ gallery:
   sectionTitle: Our Local Business Gallery
   tagline: demo tag line
   items:
-    - image: images/@stock/big-work-1.jpg
-      name: one
-    - image: images/@stock/big-work-2.jpg
-      name: two
-    - image: images/@stock/big-work-1.jpg
-      name: three
-    - image: images/@stock/big-work-2.jpg
-      name: four
     - image: /images/uploads/about-us-header.jpg
-      name: five
+      name: "five"
   body:
 ---
 
