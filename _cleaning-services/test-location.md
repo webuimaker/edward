@@ -21,7 +21,6 @@ slides:
     heading: demo
     subHeading: demo
 howitsWorks:
-  enable: true
   body: >-
     **Our Cleaners in Sheffield have over 100 year’s experience!**
 
@@ -38,6 +37,7 @@ howitsWorks:
 
     Our coverage through all areas of the Sheffield area is great, so whether
     you’re in Beauchief or Beighton, we’ve got you covered.
+  enable: false
   sectionTitle: How Its works
   works:
     - desc: >-
