@@ -126,6 +126,7 @@ collections:
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Top Section", name: slides, widget: object, fields: [
+          {lable: "enable", name: "enable", widget: "boolean", default: true},
           {label: "Banner", name: "banner", widget: "list", fields:[
             {lable: "Bg Image", name: "bg", widget: "image"},
             {lable: "Title", name: "title", widget: "string"},
