@@ -5,8 +5,8 @@ section: '{{name}}'
 intro_paragraph: demo
 slides:
   banner:
-    - bg: /images/uploads/about-us-header.jpg
-      bgUrl:
+    - bg: ''
+      bgUrl: 'https://d3iulhv9p0xx4e.cloudfront.net/newcastle.png'
       lists:
         - text: demo
       title: demo
@@ -21,6 +21,8 @@ slides:
         type: text
     heading: demo
     subHeading: demo
+reviews:
+  enable: true
 howitsWorks:
   body: >-
     ## Where would I style this title and section
