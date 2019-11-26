@@ -23,7 +23,7 @@ slides:
     subHeading: demo
 howitsWorks:
   body: >-
-    Where would I style this title and section
+    ## Where would I style this title and section
 
 
     That’s right, our reliable team have collectively been cleaning houses
@@ -44,20 +44,17 @@ howitsWorks:
     - desc: >-
         Get in touch for a quick chat about your requirements. We'll discuss
         things like number of hours, frequency, day/time, and access.
-      icon: 
-      image:  /images/formfill.png
+      icon: fa fa-flask
       title: Fill in our form or call
     - desc: >-
         We then allocate you the same experienced, vetted cleaner for every
-        visit (and can obviously provide cover if needed).      
-      icon: 
-      image:  /images/allocatecleaner.png
+        visit (and can obviously provide cover if needed).
+      icon: fa fa-paper-plane-o
       title: We allocate your cleaner
     - desc: >-
         Set up your account from the link in your booking confirmation. We'll
         take an automated payment after each clean and email a receipt.
-      icon: 
-      image:  /images/paysecurely.png
+      icon: fa fa-tablet
       title: Pay securely online
 ourServices:
   body: >-
