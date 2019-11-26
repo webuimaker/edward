@@ -22,7 +22,7 @@ slides:
     subHeading: demo
 howitsWorks:
   body: >-
-    **Our Cleaners in Sheffield have over 100 year’s experience!**
+    `<h2>Our Cleaners in Sheffield have over 100 year’s experience!</h2>`
 
 
     That’s right, our reliable team have collectively been cleaning houses
