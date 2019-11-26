@@ -5,7 +5,7 @@ section: '{{name}}'
 intro_paragraph: intro abdfgsrg
 slides:
   banner:
-    - bgUrl: d3iulhv9p0xx4e.cloudfront.net/newcastle.pmg
+    - bgUrl: d3iulhv9p0xx4e.cloudfront.net/newcastle.png
       title: newcastle
   contactNumber: number
   enable: true
