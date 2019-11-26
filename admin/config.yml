@@ -122,21 +122,22 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "location"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Canonical", name: "canonical", widget: "string"}
-      - {label: "og-title", name: "og-title", widget: "string"}
-      - {label: "og-description", name: "og-description", widget: "string"}
-      - {label: "og-url", name: "og-url", widget: "string"}
-      - {label: "twitter-description", name: "twitter-description", widget: "string"}
-      - {label: "twitter-title", name: "twitter-title", widget: "string"}
-      - {label: "twitter-image", name: "twitter-image", widget: "image"}
-      - {label: "script Id json", name: "scriptId-json", widget: "string"}
+      - {label: "Canonical", name: "canonical", widget: "string", required: false}
+      - {label: "og-title", name: "og-title", widget: "string", required: false}
+      - {label: "og-description", name: "og-description", widget: "string", required: false}
+      - {label: "og-url", name: "og-url", widget: "string", required: false}
+      - {label: "twitter-description", name: "twitter-description", widget: "string", required: false}
+      - {label: "twitter-title", name: "twitter-title", widget: "string", required: false}
+      - {label: "twitter-image", name: "twitter-image", widget: "image", required: false}
+      - {label: "script Id json", name: "scriptId-json", widget: "string", required: false}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
       - {label: "Top Section", name: slides, widget: object, fields: [
           {lable: "enable", name: "enable", widget: "boolean", default: true},
           {label: "Banner", name: "banner", widget: "list", fields:[
-            {lable: "Bg Image", name: "bg", widget: "image"},
+            {lable: "Bg Image Select/Uplaod from CMS", name: "bg", widget: "image", required: false},
+            {lable: "Bg Image URL", name: "bgUrl", widget: "string", required: false},
             {lable: "Title", name: "title", widget: "string"},
             {lable: "lists", name: "lists", widget: "list", fields:[
             {lable: "text", name: "text", widget: "string"}

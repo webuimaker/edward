@@ -6,6 +6,7 @@ intro_paragraph: demo
 slides:
   banner:
     - bg: /images/uploads/about-us-header.jpg
+      bgUrl:
       lists:
         - text: demo
       title: demo
