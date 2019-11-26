@@ -163,7 +163,8 @@ collections:
           {lable: "enable", name: "enable", widget: "boolean", default: true},
           {lable: "Section Title", name: "sectionTitle", widget: "string"},
           {label: "works", name: "works", widget: "list", fields:[
-            {lable: "Icon", name: "icon", widget: "string"},
+            {lable: "Icon", name: "icon", widget: "string", required: false},
+            {lable: "Image", name: "image", widget: "image", required: false},
             {lable: "Title", name: "title", widget: "string"},
             {lable: "Details", name: "desc", widget: "string"}
             ]},

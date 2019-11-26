@@ -53,17 +53,20 @@ howitsWorks:
     - desc: >-
         Get in touch for a quick chat about your requirements. We'll discuss
         things like number of hours, frequency, day/time, and access.
-      icon: fa fa-flask
+      icon: 
+      image:  /images/formfill.png
       title: Fill in our form or call
     - desc: >-
         We then allocate you the same experienced, vetted cleaner for every
-        visit (and can obviously provide cover if needed).
-      icon: fa fa-paper-plane-o
+        visit (and can obviously provide cover if needed).      
+      icon: 
+      image:  /images/allocatecleaner.png
       title: We allocate your cleaner
     - desc: >-
         Set up your account from the link in your booking confirmation. We'll
         take an automated payment after each clean and email a receipt.
-      icon: fa fa-tablet
+      icon: 
+      image:  /images/paysecurely.png
       title: Pay securely online
 ourServices:
   body: >-
