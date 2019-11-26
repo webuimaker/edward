@@ -4,7 +4,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> 
+
+
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+    <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ site.canonical }}{% endif %}"/>
+    <meta property="og:locale" content="en_UK" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{% if page.og-title %}{{ page.og-title }}{% else %}{{ site.og-title }}{% endif %}"/>
+    <meta property="og:description" content="{% if page.og-description %}{{ page.og-description }}{% else %}{{ site.og-description }}{% endif %}" />
+	<meta property="og:url" content="{% if page.og-url %}{{ page.og-url }}{% else %}{{ site.og-url }}{% endif %}" />
+    <meta property="og:site_name" content="Cleanily" />
+    <meta property="article:publisher" content="https://www.facebook.com/Cleanily" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="{% if page.twitter-description %}{{ page.twitter-description }}{% else %}{{ site.twitter-description }}{% endif %}  " />
+    <meta name="twitter:title" content="{% if page.twitter-title %}{{ page.twitter-title }}{% else %}{{ site.twitter-title }}{% endif %}" />
+    <meta name="twitter:site" content="@Backlinko" />
+    <meta name="twitter:image" content="https://cdn-backlinko.pressidium.com/wp-content/uploads/2016/05/SEO_INFOGRAPHIC_COVER_220x220_retina-e1464015170717.jpg" />
+    <meta name="twitter:creator" content="@Backlinko" />
+    <script type='application/ld+json' src=" XXXXXXXXXX"> </script>
+  
+  
+  
 
   <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">

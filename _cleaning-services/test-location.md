@@ -1,6 +1,14 @@
 ---
 layout: location
 title: test location
+canonical: canonical
+og-title: og-title
+og-description: og-description
+og-url: og-url
+twitter-description: "When it comes to on-page SEO, I&#8217;m sure you&#8217;ve heard enough about meta tags and keyword density for one lifetime. If you&#8217;re looking for some practical strategies that you can use on your site today, then you&#8217;ll love this infographic. It&#8217;s a simple checklist that will bring in more search engine traffic from every piece &hellip;"
+twitter-title: "On-Page SEO: Anatomy of a Perfectly Optimized Page (2019 Update)"
+twitter-image: twitter-image
+scriptId-json: scriptId-json
 section: '{{name}}'
 intro_paragraph: demo
 slides:
@@ -20,6 +28,8 @@ slides:
         type: text
     heading: demo
     subHeading: demo
+reviews:
+  enable: true
 howitsWorks:
   body: >-
     **Our Cleaners in Sheffield have over 100 year’s experience!**
@@ -114,15 +124,8 @@ gallery:
     laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna
     adipiscing.
   items:
-    - body: businessDetails
-      businessName: list -1
-      logo: images/@stock/responsive.png
-    - body: businessDetails
-      businessName: list -2
-      logo: images/@stock/responsive.png
-    - body: Test demo
-      businessName: Business name from CMS
-      logo: /images/uploads/demo-5.png
+    - text: Test demo
+      image: /images/uploads/demo-5.png
   sectionTitle: Our Local Business Gallery
   tagline: tagline here.
 ---

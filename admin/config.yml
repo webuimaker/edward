@@ -112,7 +112,7 @@ collections:
               {lable: "Tagline", name: "tagline", widget: "string"},
               {lable: "Details", name: "body", widget: "markdown"}
               ]}
-    # PAGES
+    # Location Page
   - name: "cleaning-services"
     label: "Location"
     folder: "_cleaning-services"
@@ -122,6 +122,14 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "location"}
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Canonical", name: "canonical", widget: "string"}
+      - {label: "og-title", name: "og-title", widget: "string"}
+      - {label: "og-description", name: "og-description", widget: "string"}
+      - {label: "og-url", name: "og-url", widget: "string"}
+      - {label: "twitter-description", name: "twitter-description", widget: "string"}
+      - {label: "twitter-title", name: "twitter-title", widget: "string"}
+      - {label: "twitter-image", name: "twitter-image", widget: "image"}
+      - {label: "script Id json", name: "scriptId-json", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "hidden"}
       - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
       - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
@@ -147,6 +155,9 @@ collections:
               ]
               },
               {label: "Contact Number", name: "contactNumber",  default: "number"}
+              ]}
+      - {label: "Reviews", name: reviews, widget: object, fields: [
+          {lable: "enable", name: "enable", widget: "boolean", default: true}
               ]}
       - {label: "how Its Works", name: howitsWorks, widget: object, fields: [
           {lable: "enable", name: "enable", widget: "boolean", default: true},

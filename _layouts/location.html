@@ -96,6 +96,12 @@ layout: default
   </div>
 </div>
 {% endif %}
+
+{% if page.reviews.enable == true %}
+	{% include reviews.html %}
+{% endif %}
+
+
 {% if page.howitsWorks.enable == true %}
 	{% include howitswork.html %}
 {% endif %}
