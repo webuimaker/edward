@@ -55,11 +55,6 @@ howitsWorks:
         take an automated payment after each clean and email a receipt.
       icon: fa fa-tablet
       title: Pay securely online
-    - desc: >-
-        Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum
-        sit quae nostrum.
-      icon: fa fa-comments-o
-      title: Creative design
 ourServices:
   body: >-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
