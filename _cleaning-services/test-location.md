@@ -32,7 +32,7 @@ reviews:
   enable: true
 howitsWorks:
   body: >-
-    **Our Cleaners in Sheffield have over 100 year’s experience!**
+    <h2>Our Cleaners in Sheffield have over 100 year’s experience!</h2>
 
 
     That’s right, our reliable team have collectively been cleaning houses
@@ -65,11 +65,6 @@ howitsWorks:
         take an automated payment after each clean and email a receipt.
       icon: fa fa-tablet
       title: Pay securely online
-    - desc: >-
-        Est aperiam ex sint maiores aliquam delectus minima rerum et natus rerum
-        sit quae nostrum.
-      icon: fa fa-comments-o
-      title: Creative design
 ourServices:
   body: >-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
@@ -94,7 +89,6 @@ ourServices:
     heading: How it works
     videoUrl: 'https://player.vimeo.com/video/284347668'
 localBusiness:
-  enable: true
   body: >-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
@@ -112,10 +106,10 @@ localBusiness:
     - body: Test demo
       businessName: Business name from CMS
       logo: /images/uploads/demo-5.png
+  enable: true
   sectionTitle: Our Local Business Friends in Newcastle
   tagline: tagline here.
 gallery:
-  enable: true
   body: >-
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
     nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat
@@ -123,6 +117,7 @@ gallery:
     consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
     laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna
     adipiscing.
+  enable: true
   items:
     - text: Test demo
       image: /images/uploads/demo-5.png
